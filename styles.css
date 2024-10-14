@@ -1,0 +1,68 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+.main-banner {
+    background-image: url('laguna-san-miguel.jpg'); /* Asegúrate de que el nombre sea correcto */
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Cambiado a flex-start para que el título esté en la parte superior */
+    padding-top: 20px; /* Espacio superior para el título */
+}
+
+.main-banner h1 {
+    color: black; /* Cambia a negro */
+    font-size: 3rem; /* Puedes ajustar el tamaño según lo que desees */
+    margin: 0; /* Eliminar márgenes para que esté más cerca de la parte superior */
+    font-family: 'Spicy Rice', cursive; /* Asegúrate de que esta fuente esté importada */
+}
+
+main {
+    display: flex;
+    justify-content: space-around;
+    margin: 2rem;
+}
+
+.house {
+    background-color: black; /* Cambia el color de fondo a negro */
+    color: white; /* Cambia el color del texto a blanco */
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 30%;
+    text-align: center;
+}
+
+.house img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+    margin-bottom: 1rem;
+}
+
+footer {
+    text-align: center;
+    background-color: #333;
+    color: white;
+    padding: 1rem 0;
+}
+
+.whatsapp-button {
+    background-color: #25D366;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+    font-size: 1.2rem;
+}
+
+.whatsapp-button:hover {
+    background-color: #128C7E;
+}
